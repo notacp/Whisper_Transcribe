@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "talkinabox_demo"
+version = "0.1.0"
+description = "Talk-In-A-Box mini demo pipeline."
+authors = ["Your Name <you@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+youtube-transcript-api = "*"
+requests = "*"
+groq = "*"
+python-dotenv = "*"
+pymupdf = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
