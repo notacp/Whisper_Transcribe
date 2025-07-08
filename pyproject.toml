@@ -10,7 +10,7 @@ python = ">=3.9,<4.0"
 groq = "*"
 python-dotenv = "*"
 pymupdf = "*"
-whisper = "*"
+openai-whisper = "*"
 streamlit = "*"
 
 [build-system]
